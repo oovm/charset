@@ -1,6 +1,9 @@
 {
     "private": true,
     "scripts": {
-        "p": "cargo publish --allow-dirty"
+        "p": "cargo publish --allow-dirty",
+        "u" : "cargo upgrade",
+        "g" : "wee generate -t",
+        "generate" : "bash tests/generate.sh"
     }
 }
