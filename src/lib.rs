@@ -2,7 +2,6 @@
 
 pub use self::{dump::DumpAction, insert::InsertAction};
 
-#[rustfmt::skip]
 pub mod builtin;
 mod dump;
 mod insert;

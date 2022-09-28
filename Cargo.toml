@@ -1,9 +1,9 @@
 [package]
 name = "character-set"
-version = "0.3.0"
+version = "0.4.0"
 authors = ["Aster <192607617@qq.com>"]
 description = "High performance `set.contains(char)`"
-repository = "https://github.com/ygg-lang/yggdrasil-rs"
+repository = "https://github.com/oovm/charset"
 documentation = "https://docs.rs/character-set"
 readme = "Readme.md"
 license = "MPL-2.0"

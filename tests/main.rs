@@ -1,5 +1,4 @@
 use character_set::CharacterSet;
-mod general_category;
 
 #[test]
 fn ready() {
@@ -33,7 +32,7 @@ fn test2() {
     set.include(11..=15).unwrap();
     set.include(14..20).unwrap();
     set.include(23..39).unwrap();
-    assert_eq!(set.count(), 28);
+    assert_eq!(set.count(), 33);
     println!("{:#?}", set);
 }
 
