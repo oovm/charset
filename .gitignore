@@ -1,0 +1,26 @@
+# IDE
+*.idea
+*.vscode
+*.vs
+
+# Cargo
+/target/
+Cargo.lock
+
+
+# Node
+node_modules
+*.log
+*.test.js
+package-lock.json
+
+# Antlr
+*.zip
+*.antlr
+*.ps1
+*.m
+*.nb
+*.g4
+*.pdf
+
+# Ignore
